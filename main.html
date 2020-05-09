@@ -4,33 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartDev</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <img src="images/graystuff.png" alt="" class="grayshape">
+    <div class="head">
+        <img src="images/blackstuff.png" alt="" class="blackshape">
         <img src="images/whiteLogo.png" alt="SartDev Logo" class="logo">
         <nav>
             <ul>
-                <li class="one"><a class="one" href="">About us</a></li>
+                <li class="one"><a  href="">About us</a></li>
                 <li class="two"><a href="">Services</a></li>
                 <li class="three"><a href="">Members</a></li>
                 <li class="four"><a href="">Contact us</a></li>
-                <hr />
             </ul>
         </nav>
-    <div class="des">
-        <p>Your Business software in the most stunning and elegant way!.</p>
-        <div class="laps">
-            <img src="images/laptop.png" alt="" class="laptop" style="margin-bottom: 20%;">
-            <img src="images/laptop2.png" alt="" class="laptop" style="margin-bottom: 5%;">
+    
+        <p class="des">Your Business software in the most stunning and elegant way!.</p>
+    </div>
+    <!-- Carousel 100% Fullscreen -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item bg bg1 active">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Unique Desings</h1>
+          </div>
+        </div>
+      </div>
+      <div class="item bg bg2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Trusted And Professinal Products</h1>
+          </div>
+        </div>
+      </div>
+      <div class="item bg bg3">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>A Variety of Services</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+  <!-- /end Carousel 100% Fullscreen -->
 
+  <section class="about" id="about">
+    <div class="container">
+        <div class="profile-img">
+            <img src="images/about.jpg" alt="picoo desu">
+        </div>
+        <div class="about-details">
+            <div>
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid, saepe soluta sed earum libero. Unde, a praesentium. Laboriosam, praesentium adipisci. Esse, dignissimos eos tempora assumenda odio consequuntur id odit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Accusantium accusamus libero rem qui porro repel Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto recusandae saepe reiciendis, quibusdam debitis explicabo eos accusantium fugit? Et tempore
+                    reiciendis distinctio iusto cum dignissimos inventore officia esse eaque ullam.
+                </p>
+            </div>
         </div>
     </div>
-    <div class="about">
-        <h1 class="bigtitle">About Us</h1>
-        <p>At SmartDev,  we develop innovative and creative products and services that provide total control of your business.  Among a plethora of services, web design and development, tailor made application, progressive web applications, and mobile applications.</p>
-        <p>SmartDev's business philosophy is to assure the highest quality product, total client satisfaction, timely delivery of solutions and the best quality/price ratio found in the industry.</p>
-        <p>Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.</p>
+</section>
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-heading">
+            <h1>Services</h1>
+            <h6>What i can do for you</h6>
+        </div>
+        <div class="my-skills">
+            <div class="skill">
+                <div class="icon-container">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h1>Take Professional Pictures</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="skill">
+                <div class="icon-container">
+                    <i class="fas fa-images"></i>
+                </div>
+                <h1>Create Stunning Albums</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="skill">
+                <div class="icon-container">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h1>Film Your Great Moments</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
     </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-heading">
+            <h1>Portfolio</h1>
+            <h6>View Some Of My Recent Work</h6>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+                <img src="images/1.jpg" alt="image">
+            </div>
+            <div class="portfolio-description">
+                <h6>Photography</h6>
+                <h1>Photography Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="gallery.html" class="cta">View Details</a>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right">
+                <h6>Graduation Photography</h6>
+                <h1>Photography Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="gallery.html" class="cta">View Details</a>
+            </div>
+            <div class="portfolio-img has-margin-right">
+                <img src="images/2.jpg" alt="image">
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+                <img src="images/3.jpg" alt="image">
+            </div>
+            <div class="portfolio-description">
+                <h6>Weddings Photography</h6>
+                <h1>Photography Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="gallery.html" class="cta">View Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="experience" id="experience">
+    <div class="container">
+        <div class="section-heading">
+            <h1>WorK Experience</h1>
+            <h6>Past and current jobs</h6>
+        </div>
+        <div class="timeline">
+            <ul>
+                <li class="date" data-date="2019 - present">
+                    <h1>Google Photography</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </li>
+                <li class="date" data-date="2015 - 2019">
+                    <h1>A Company Photography</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </li>
+                <li class="date" data-date="2010 - 2015">
+                    <h1>Films Photography</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's Work Together</h6>
+        </div>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your E-Mail" required>
+            <label for="service">Services:</label>
+            <select name="services" id="service">
+                <option value="">Lorem ispum amet</option>
+                <option value="">dolor sit amet si</option>
+                <option value="">consectetur adi</option>
+            </select>
+            <label for="subject">Subject:</label>
+            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</section>
+
+    
 </body>
 </html>
